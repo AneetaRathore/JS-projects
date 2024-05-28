@@ -1,0 +1,69 @@
+*{padding:0;
+margin: 0;}
+body{
+    background-image: url(backimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: sans-serif;
+}
+#left{
+    background-color: rgb(125, 87, 160);
+    color:white;
+    font-size: 2rem;
+    padding: 3rem;
+    padding-right: 5rem;
+    position: relative;
+    top:12vw;
+    left:20vw;
+    height: 14rem;
+    box-shadow: 10px 20px 20px 0 black;
+    animation: animationX 1s ease-in-out alternate;
+}
+@keyframes animationX{
+    from{
+        left:0%;
+    }
+    to{
+        left:20%;
+    }
+}
+#left h1{
+    font-size:9rem;
+}
+#right{
+    background-color: white;
+    display: grid;
+    position: relative;
+    top:7vw;
+    left:20vw;
+    padding: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color:rgb(95, 68, 119);
+    box-shadow: 10px 10px 10px 0px rgb(37, 2, 46);
+}
+input{
+    padding: 1rem;
+    color:rgb(250, 250, 250);
+    background:rgb(172, 153, 190);
+    border: white;
+}
+a{
+    background-color: rgb(95, 68, 119);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 3rem;
+    border-radius: 1.5rem;
+    width: 8rem;
+    font-size: 1.2rem;
+}
+#right p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+#BMI-weight-guide{
+    margin-top: 2rem;
+}
