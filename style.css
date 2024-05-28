@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background-image: url(slider.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+#bar {
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 1.5rem;
+}
+.guessNum {
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    width: 70%;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    line-height: 5rem;
+    animation: slideIn 1s ease-in-out forwards;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+#heading {
+    font-size: 3rem;
+}
+input {
+    padding: 1.2rem;
+    background-color: orange;
+    border-radius: 0.5rem;
+}
+#subt {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(41, 41, 41);
+    border: 4px solid rgb(41, 41, 41);
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem; /* Adjust as needed */
+    padding-bottom:0.5rem; /* Adjust as needed */
+    margin-top: 2rem;
+}
+.result p {
+    font-size: 1.5rem;
+}

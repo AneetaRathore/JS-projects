@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="bar">You have 10 attempts to guess the right number.</p>
+    <div class="guessNum"> 
+        <label for="guessField" id="heading">Guess The Number</label>
+        <input type="number" id="guessField">
+        <input type="submit" id="subt" value="Submit guess">
+        <div class="result">
+            <p>Previous Guesses: <span id="guesses"></span></p>
+            <p>Guess Remaining: <span id="lastResult"></span></p>
+            <p class="lowOrHigh"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
