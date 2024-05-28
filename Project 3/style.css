@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(14, 14, 29);
+  font-family: sans-serif;
+}
+#clock{
+  margin-left: 16rem; 
+  margin-top: 7rem;
+  background-image: url(neon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 5.5rem;
+  color:azure;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-left: 8rem;
+}
