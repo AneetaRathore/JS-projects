@@ -1,0 +1,23 @@
+.project{
+    background-color: #82fcf2;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+#insert{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+table, th, td {
+    border:2px solid rgb(0, 0, 0);
+    
+  }
+th{
+    padding: 1.5rem;
+}
+td{
+    padding: 3rem;
+}
