@@ -1,0 +1,26 @@
+body{
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.main{
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+#stop{
+    margin-top: 2rem;
+    position: relative;
+    top:4rem;
+    right: 7rem;
+}
